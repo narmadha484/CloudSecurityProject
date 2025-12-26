@@ -15,6 +15,14 @@ critical vulnerabilities.
 - Interactive Streamlit dashboard
 - SNS alert notifications
 
+## Architecture
+User → main.py
+     → AWS APIs (S3, IAM, EC2)
+     → AI Risk Explainer
+     → Remediation Engine
+     → JSON Report
+     → Streamlit Dashboard
+
 ## Technologies Used
 - AWS (EC2, S3, IAM, SNS)
 - Python
